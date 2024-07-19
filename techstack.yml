@@ -1,0 +1,158 @@
+repo_name: yuanhunn/JavaGuide
+report_id: c386f72e10f3a6ceb4f55a1f7fe8178a
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-19T02:41:32+00:00'
+requested_by: Snailclimb
+provider: github
+branch: main
+detected_tools_count: 12
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide
+  detection_source: Repo Metadata
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/yuanhunn/JavaGuide
+  detection_source: Repo Metadata
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 3.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: guide
+  last_updated_on: 2021-11-09 10:47:58.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/.github/workflows/test.yml
+  detection_source: ".github/workflows/test.yml"
+  last_updated_by: Mr.Hope
+  last_updated_on: 2023-12-30 09:15:15.000000000 Z
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 3.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mr.Hope
+  last_updated_on: 2024-02-06 03:54:47.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: guide
+  last_updated_on: 2021-11-09 10:47:58.000000000 Z
+- name: MathJax
+  description: Cross-browser JavaScript library that displays mathematical notation
+  website_url: https://www.mathjax.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2832/favicon_400x400.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: guide
+  last_updated_on: 2021-11-09 10:47:58.000000000 Z
+- name: VuePress
+  description: A static-site generator built by the Vue.js team
+  website_url: https://vuepress.vuejs.org/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Static Site Generators
+  image_url: https://img.stackshare.io/service/8863/paeckCWC.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Guide
+  last_updated_on: 2024-03-31 15:47:46.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mr.Hope
+  last_updated_on: 2024-02-06 03:54:47.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 9.0.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: Mr.Hope
+  last_updated_on: 2024-02-06 03:54:47.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 3.4.21
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/yuanhunn/JavaGuide/blob/main/package.json
+  detection_source: package.json
+  last_updated_by: guide
+  last_updated_on: 2021-11-09 10:47:58.000000000 Z
